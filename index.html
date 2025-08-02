@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nadar Higher Secondary School, Kovilpatti</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .navbar {
+      background-color: #004d99;
+    }
+    .navbar-brand, .nav-link {
+      color: white !important;
+    }
+    .navbar-nav .nav-link:hover {
+      background-color: #003366;
+    }
+    .hero-section {
+      background-image: url('school.jpg'); /* Replace with your image */
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 100px 0;
+    }
+    .hero-section h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+    }
+    .hero-section p {
+      font-size: 1.25rem;
+    }
+    .btn-primary {
+      background-color: #004d99;
+      border-color: #004d99;
+    }
+    .btn-primary:hover {
+      background-color: #003366;
+      border-color: #003366;
+    }
+    .section-title {
+      text-align: center;
+      margin: 50px 0 30px;
+      font-size: 2rem;
+      font-weight: 700;
+    }
+    .card {
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-bottom: 30px;
+    }
+    .card-body {
+      text-align: center;
+    }
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">NADAR HIGHER SECONDARY SCHOOL</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="#admission">Admission</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <h1>Welcome to Nadar Higher Secondary School</h1>
+      <p>Empowering students with knowledge and values since 1949</p>
+      <a href="#admission" class="btn btn-primary btn-lg mt-3">Apply Now</a>
+    </div>
+  </section>
+
+  <!-- About Us -->
+  <section id="about" class="container my-5">
+    <h2 class="section-title">About Us</h2>
+    <p>Nadar Higher Secondary School was established in 1949 by the visionary leadership of Mr. S.S.T. Rathinasamy. Over the years, the school has evolved into a premier educational institution, offering quality education to students from diverse backgrounds. Our mission is to provide holistic development through academic excellence, co-curricular activities, and moral values.</p>
+  </section>
+
+  <!-- Admission -->
+  <section id="admission" class="container my-5">
+    <h2 class="section-title">Admission</h2>
+    <p>Admissions are open for the academic year 2025–2026. Interested candidates can apply through our official website or visit the school office for more information. Please ensure to submit all required documents along with the application form.</p>
+  </section>
+
+  <!-- Courses -->
+  <section id="courses" class="container my-5">
+    <h2 class="section-title">Courses Offered</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="GOP1.jpg" class="card-img-top" alt="Science">
+          <div class="card-body">
+            <h5 class="card-title">Science Stream</h5>
+            <p>Mathematics, Physics, Chemistry, Biology, Computer Science</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="GOP2.jpg" class="card-img-top" alt="Commerce">
+          <div class="card-body">
+            <h5 class="card-title">Commerce Stream</h5>
+            <p>Accountancy, Economics, Commerce, Business Maths</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="GOP3.jpg" class="card-img-top" alt="Arts">
+          <div class="card-body">
+            <h5 class="card-title">Arts Stream</h5>
+            <p>History, Economics</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sports -->
+  <section id="sports" class="container my-5">
+    <h2 class="section-title">Sports</h2>
+    <div class="row">
+      <div class="col-md-3"><div class="card"><img src="fball.jpg" class="card-img-top"><div class="card-body"><h5 class="card-title">Football</h5></div></div></div>
+      <div class="col-md-3"><div class="card"><img src="hball.jpg" class="card-img-top"><div class="card-body"><h5 class="card-title">Handball</h5></div></div></div>
+      <div class="col-md-3"><div class="card"><img src="vball.jpg" class="card-img-top"><div class="card-body"><h5 class="card-title">Volleyball</h5></div></div></div>
+      <div class="col-md-3"><div class="card"><img src="hockey.jpg" class="card-img-top"><div class="card-body"><h5 class="card-title">Hockey</h5></div></div></div>
+      <div class="col-md-3"><div class="card"><img src="tt.jpg" class="card-img-top"><div class="card-body"><h5 class="card-title">Table Tennis</h5></div></div></div>
+      <div class="col-md-3"><div class="card"><img src="bad.jpg" class="card-img-top"><div class="card-body"><h5 class="card-title">Badminton</h5></div></div></div>
+      <div class="col-md-3"><div class="card"><img src="last.jpg" class="card-img-top"><div class="card-body"><h5 class="card-title">Kabaddi</h5></div></div></div>
+      <div class="col-md-3"><div class="card"><img src="run.jpg" class="card-img-top"><div class="card-body"><h5 class="card-title">Athletics</h5></div></div></div>
+    </div>
+  </section>
+
+  <!-- Youth Development -->
+  <section id="youth" class="container my-5">
+    <h2 class="section-title">Youth Development Program</h2>
+    <div class="row">
+      <div class="col-md-3"><div class="card"><img src="ncc.jpg" class="card-img-top"><div class="card-body"><h5 class="card-title">NCC</h5></div></div></div>
+      <div class="col-md-3"><div class="card"><img src="nss.jpg" class="card-img-top"><div class="card-body"><h5 class="card-title">NSS</h5></div></div></div>
+      <div class="col-md-3"><div class="card"><img src="scout.jpg" class="card-img-top"><div class="card-body"><h5 class="card-title">SCOUT</h5></div></div></div>
+      <div class="col-md-3"><div class="card"><img src="jrc.jpg" class="card-img-top"><div class="card-body"><h5 class="card-title">JRC</h5></div></div></div>
+      <div class="col-md-3"><div class="card"><img src="rsp.jpg" class="card-img-top"><div class="card-body"><h5 class="card-title">RSP</h5></div></div></div>
+      <div class="col-md-3"><div class="card"><img src="gc.jpg" class="card-img-top"><div class="card-body"><h5 class="card-title">GREEN CROPS</h5></div></div></div>
+      <div class="col-md-3"><div class="card"><img src="con.jpg" class="card-img-top"><div class="card-body"><h5 class="card-title">CONSUMER</h5></div></div></div>
+    </div>
+  </section>
+
+  <!-- Contact Us -->
+  <section id="contact" class="container my-5">
+    <h2 class="section-title">Contact Us</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h5>School Address</h5>
+        <p>Nadar Higher Secondary School<br>
+        Kovilpatti, Tamil Nadu - 628501<br>
+        India</p>
+        <p><strong>Phone:</strong> +91-4632-220766</p>
+        <p><strong>Email:</strong> info@nadarhss.edu.in</p>
+      </div>
+      <div class="col-md-6">
+        <h5>Send us a Message</h5>
+        <form>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Write your message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
